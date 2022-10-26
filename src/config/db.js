@@ -1,6 +1,8 @@
-const mongoose = require('mongoose');
-module.exports =()=>{
-    mongoose.connect("mongodb+srv://aruneja:arunteja123@cluster0.juemcu7.mongodb.net/?retryWrites=true&w=majority")
+const mongoose = require('mongoose')
+module.exports = () => {
+  mongoose.connect(
+    'mongodb+srv://aruneja:arunteja123@cluster0.juemcu7.mongodb.net/?retryWrites=true&w=majority',
+  )
 }
 
 // const { default: mongoose } = require("mongoose");
